@@ -50,17 +50,27 @@
 .datos-maquina-lata{
     display: flex;
     flex-direction: row;
-    padding: 150px;
+    padding: 50px;
     justify-content: center;
     align-items: center;
+    gap: 75px;
 }
 
 .datos-maquina, .datos-lata{
     display: flex;
     flex-direction: column;
     padding: 0 15px 0 15px;
+    width: 35%;
+    text-align: center;
 }
 
 .style-data-component{
     padding: 15px 0 15px 0;
+    margin: 5px;
+    width: 100%;
+}
+
+        /*styles of data lata*/
+.label-data-lata{
+    padding: 20px 0 5px 0;
 }

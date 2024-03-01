@@ -32,36 +32,36 @@
                         <h3 class="style-data-component">DATOS MAQUINA</h3>
                         <label class="style-data-component" for="tipo-placa-selector">Seleccione el tipo de placa</label>
                         <select class="style-data-component" name="" id="tipo-placa-selector">
-                            <option value="">Arduino Uno</option>
-                            <option value="">Arduino Mega</option>
+                            <option value="arduinoUno">Arduino Uno</option>
+                            <option value="arduinoMega">Arduino Mega</option>
                         </select>
-                        <button class="style-data-component">Seleccionar</button>
+                        <button id="button-placa" class="style-data-component">Seleccionar</button>
 
                         <h3>CALIBRACION</h3>
                         <label class="style-data-component" for="tarar">ingrese peso de referencia</label>
                         <input class="style-data-component" type="text" id="tarar">
 
-                        <button>CALIBRAR</button>
+                        <button id="button-calibrar">CALIBRAR</button>
                     </div>
 
                     <div class="datos-lata">
                         <h3>DATOS LATA</h3>
-                        <label for="diametro-mayor">Diametro mayor</label>
-                        <input type="text" id="diametro-mayor">
+                        <label class="label-data-lata" for="diametro-mayor">Diametro mayor</label>
+                        <input class="input-data-lata" type="number" id="diametro-mayor">
 
-                        <label for="diametro-menor">Diametro menor</label>
-                        <input type="text" id="diametro-menor">
+                        <label class="label-data-lata" for="diametro-menor">Diametro menor</label>
+                        <input class="input-data-lata" type="number" id="diametro-menor">
 
-                        <label for="altura">Altura</label>
-                        <input type="text" id="altura">
+                        <label class="label-data-lata" for="altura">Altura</label>
+                        <input class="input-data-lata" type="number" id="altura">
 
-                        <label for="marca">Marca de lata</label>
-                        <input type="text" id="marca">
+                        <label class="label-data-lata" for="marca">Marca de lata</label>
+                        <input class="input-data-lata" type="text" id="marca">
 
-                        <label for="material">Mateiral</label>
-                        <input type="text" id="material">
+                        <label class="label-data-lata" for="material">Mateiral</label>
+                        <input class="input-data-lata" type="text" id="material">
 
-                        <button>Ingresar datos</button>
+                        <button id="button-ingresar-datos">Ingresar datos</button>
                     </div>
                 </div>
                 <!--end of data machine and object-->
@@ -71,4 +71,5 @@
     </main>
 
 </body>
+<script src="./app.js"></script>
 </html>
