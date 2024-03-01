@@ -1,0 +1,46 @@
+/*diseño del menu*/
+.menu-head{
+    color: white;
+    width: auto;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    padding: 0 70px 0 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu-head li{
+    display: inline-block;
+    padding: 15px;
+    align-content: center;
+    
+}
+
+.menu-head a{
+    text-decoration: none;
+    color: white;
+}
+
+.pileta-img{
+    width: 100%;
+}
+
+.integrantes-div{
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+    border: solid;
+    border-radius: 5px;
+    border-color: black;
+    width: 25%;
+}
+
+.items{
+    display: flex   ;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    
+}
