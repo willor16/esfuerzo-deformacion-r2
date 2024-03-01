@@ -30,7 +30,7 @@
     justify-content: center;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 45px 15px ;
     
     border: solid;
     border-radius: 5px;
@@ -43,4 +43,24 @@
     font-family: 'Times New Roman', Times, serif;
     justify-content: center;
     
+}
+
+/*style of general data*/
+
+.datos-maquina-lata{
+    display: flex;
+    flex-direction: row;
+    padding: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos-maquina, .datos-lata{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+.style-data-component{
+    padding: 15px 0 15px 0;
 }

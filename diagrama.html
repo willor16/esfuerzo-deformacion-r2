@@ -23,6 +23,52 @@
         </section>
     </head>
 
+    <main>
+        <section class="datos">
+            <div class="general-data">
+                <!--start of data machine and object-->
+                <div class="datos-maquina-lata">
+                    <div class="datos-maquina">
+                        <h3 class="style-data-component">DATOS MAQUINA</h3>
+                        <label class="style-data-component" for="tipo-placa-selector">Seleccione el tipo de placa</label>
+                        <select class="style-data-component" name="" id="tipo-placa-selector">
+                            <option value="">Arduino Uno</option>
+                            <option value="">Arduino Mega</option>
+                        </select>
+                        <button class="style-data-component">Seleccionar</button>
+
+                        <h3>CALIBRACION</h3>
+                        <label class="style-data-component" for="tarar">ingrese peso de referencia</label>
+                        <input class="style-data-component" type="text" id="tarar">
+
+                        <button>CALIBRAR</button>
+                    </div>
+
+                    <div class="datos-lata">
+                        <h3>DATOS LATA</h3>
+                        <label for="diametro-mayor">Diametro mayor</label>
+                        <input type="text" id="diametro-mayor">
+
+                        <label for="diametro-menor">Diametro menor</label>
+                        <input type="text" id="diametro-menor">
+
+                        <label for="altura">Altura</label>
+                        <input type="text" id="altura">
+
+                        <label for="marca">Marca de lata</label>
+                        <input type="text" id="marca">
+
+                        <label for="material">Mateiral</label>
+                        <input type="text" id="material">
+
+                        <button>Ingresar datos</button>
+                    </div>
+                </div>
+                <!--end of data machine and object-->
+            </div>
+            
+        </section>
+    </main>
 
 </body>
 </html>
